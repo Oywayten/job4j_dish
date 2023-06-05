@@ -1,5 +1,5 @@
 CREATE TABLE dish (
-    id          BIGSERIAL PRIMARY KEY NOT NULL,
+    id          BIGSERIAL PRIMARY KEY,
     name        varchar(50)           NOT NULL UNIQUE,
     description varchar(256)
 );
